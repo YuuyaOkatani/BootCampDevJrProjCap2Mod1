@@ -1,0 +1,13 @@
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container{
+    background-color: #220D25;
+    border-radius: 10px;
+    margin: auto;
+    width: 1000px;
+    margin-top: 10px;
+}
