@@ -13,14 +13,14 @@ body{
     border-radius: 10px;
     margin: auto;
     width: 1000px;
-    margin-top: 10px;
+    margin-top: 0.6rem;
 }
 
 .header{
-    padding: 16px;
+    padding: 1rem;
 }
 .header-title{
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #FDCC23;
    
 
@@ -30,7 +30,7 @@ body{
 
 .header-subtitle{
    
-    margin-top: 16px;
+    margin-top: 1rem;
 
     font-weight: 500;
     
@@ -38,35 +38,35 @@ body{
 
 }
 .column{
-    padding: 16px;
-    border-radius: 10px;
+    padding: 1rem;
+    border-radius: 0.6rem;
     background-image: linear-gradient(to bottom, #621E6E , #220D25 );
-    margin-top: 40px;
+    margin-top: 2.5rem;
     
   
    
 }
 
 .column-title{
-    font-size: 32px;
+    font-size: 2rem;
  
     font-weight: 600;
 }
 
 input{
-    height: 40px;
-    margin-top: 40px;
+    height: 2.5rem;
+    margin-top: 2.5rem;
     width: 70%;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     border: 0;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .flex-container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 48px;
+    margin-top: 3rem;
     
     
 }
@@ -74,8 +74,8 @@ input{
 .subcolumn{
     background-color: #2637DB;
     width: 30%;
-    border-radius: 10px;
-    margin-top: 20px;
+    border-radius: 0.6rem;
+    margin-top: 1.2rem;
     
 
 
@@ -86,8 +86,8 @@ input{
 .outdoor{
     background-image: linear-gradient(to bottom,#3E5FEF  ,#65B1FB  );
     
-    padding: 20px;
-    margin: 10px;
+    padding: 1.2rem;
+    margin: 0.6rem;
 
 
 }
@@ -98,7 +98,7 @@ input{
 
 .image-title{
 
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
 
 }
@@ -108,9 +108,9 @@ button{
     color: white;
     background-color:#1D0C20;
     border: 0;
-    border-radius: 5px;
-    padding: 16px;
-    font-size: 22px;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    font-size: 1.3rem;
    
     
 
@@ -127,9 +127,7 @@ a{
 }
 
 @media screen and (max-width: 1020px) {
-    html{
-        font-size: 16px;
-    }
+  
     .flex-container{
         flex-direction: column;
  
