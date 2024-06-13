@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    background-color: #220D25;
+    background-image: linear-gradient(to bottom,#220D25, #621E6E  );
     border-radius: 10px;
     margin: auto;
     width: 1000px;
@@ -32,7 +32,7 @@ body{
    
     margin-top: 16px;
 
-    font-weight: 700;
+    font-weight: 500;
     
     
 
@@ -40,7 +40,7 @@ body{
 .column{
     padding: 16px;
     border-radius: 10px;
-    background-color: #5A1C65;
+    background-image: linear-gradient(to bottom, #621E6E , #220D25 );
     margin-top: 40px;
     justify-content: center;
     flex-direction: column;
@@ -58,7 +58,7 @@ input{
     width: 650px;
     border-radius: 5px;
     border: 0;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .flex-container{
@@ -82,7 +82,8 @@ input{
 }
 
 .outdoor{
-    background-color: #4166F0;
+    background-image: linear-gradient(to bottom,#3E5FEF  ,#65B1FB  );
+    
     padding: 20px;
     margin: 10px;
 
@@ -97,4 +98,28 @@ input{
 
     font-size: 32px;
     font-weight: 600;
+
+}
+
+button{
+    width: 55%;
+    color: white;
+    background-color:#1D0C20;
+    border: 0;
+    border-radius: 5px;
+    padding: 16px;
+    font-size: 22px;
+   
+    
+
+}
+
+.text-style{
+    font-weight: 1000;
+}
+
+a{
+    color: white;
+    font-weight: 500;
+    
 }
